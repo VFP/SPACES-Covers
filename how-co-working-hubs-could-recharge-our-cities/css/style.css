@@ -437,6 +437,8 @@ a:hover {
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
   position: absolute;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -469,18 +471,18 @@ a:hover {
   margin-top: .6em;
   margin-right: 1.5rem;
   margin-bottom: 0;
-  margin-left: 0;
-  width: calc(74% - 1 / 2 * 3rem);
+  margin-left: 1.5rem;
+  width: calc(74% - 3rem);
   clear: left;
   max-width: inherit
 }
 
 .fr_2_columns>.fr-widget:nth-child(2n+2) {
   margin-top: .6em;
-  margin-right: 0;
+  margin-right: 1.5rem;
   margin-bottom: 0;
   margin-left: 1.5rem;
-  width: calc(26% - 1 / 2 * 3rem);
+  width: calc(26% - 3rem);
   clear: none;
   max-width: inherit
 }
@@ -533,6 +535,8 @@ a:hover {
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
   position: absolute;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -574,18 +578,18 @@ a:hover {
   margin-top: .6em;
   margin-right: 1.5rem;
   margin-bottom: 0;
-  margin-left: 0;
-  width: calc(34% - 1 / 2 * 3rem);
+  margin-left: 1.5rem;
+  width: calc(34% - 3rem);
   clear: left;
   max-width: inherit
 }
 
 .fr_2_columns_2>.fr-widget:nth-child(2n+2) {
   margin-top: .6em;
-  margin-right: 0;
+  margin-right: 1.5rem;
   margin-bottom: 0;
   margin-left: 1.5rem;
-  width: calc(66% - 1 / 2 * 3rem);
+  width: calc(66% - 3rem);
   clear: none;
   max-width: inherit
 }
@@ -634,6 +638,8 @@ a:hover {
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
   position: absolute;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -658,18 +664,18 @@ a:hover {
   margin-top: .6em;
   margin-right: 1.5rem;
   margin-bottom: 0;
-  margin-left: 0;
-  width: calc(67% - 1 / 2 * 3rem);
+  margin-left: 1.5rem;
+  width: calc(67% - 3rem);
   clear: left;
   max-width: inherit
 }
 
 .fr_2_columns_3>.fr-widget:nth-child(2n+2) {
   margin-top: .6em;
-  margin-right: 0;
+  margin-right: 1.5rem;
   margin-bottom: 0;
   margin-left: 1.5rem;
-  width: calc(33% - 1 / 2 * 3rem);
+  width: calc(33% - 3rem);
   clear: none;
   max-width: inherit
 }
@@ -786,18 +792,18 @@ a:hover {
   margin-top: .6em;
   margin-right: 1.5rem;
   margin-bottom: 0;
-  margin-left: 0;
-  width: calc(67% - 1 / 2 * 3rem);
+  margin-left: 1.5rem;
+  width: calc(67% - 3rem);
   clear: left;
   max-width: inherit
 }
 
 .fr_2_columns_8>.fr-widget:nth-child(2n+2) {
   margin-top: .6em;
-  margin-right: 0;
+  margin-right: 1.5rem;
   margin-bottom: 0;
   margin-left: 1.5rem;
-  width: calc(33% - 1 / 2 * 3rem);
+  width: calc(33% - 3rem);
   clear: none;
   max-width: inherit
 }
@@ -911,20 +917,6 @@ a:hover {
   z-index: 1
 }
 
-.fr_menu {
-  float: none;
-  display: none;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: white;
-  background-position: center bottom;
-  background-size: auto;
-  background-attachment: scroll;
-  position: relative;
-  min-height: 1rem
-}
-
 .fr_js_overlay_5 {
   float: none;
   display: none;
@@ -943,29 +935,12 @@ a:hover {
   pointer-events: none
 }
 
-.fr_c01_paragraph_text_63 {
-  float: none;
-  display: block;
-  width: 100%;
-  font-family: Roboto;
-  font-weight: 300;
-  font-size: 1.0rem;
-  line-height: 1.6;
-  text-align: left;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  color: #2d2d2d;
-  min-height: 1.35em
-}
-
 .fr_2_columns_10 {
   display: block;
   width: 90%;
   margin-top: 3rem;
   margin-right: auto;
+  margin-bottom: 3rem;
   margin-left: auto;
   min-height: 12em;
   max-width: 1000px
@@ -979,18 +954,18 @@ a:hover {
   margin-top: .6em;
   margin-right: 1.5rem;
   margin-bottom: 0;
-  margin-left: 0;
-  width: calc(100% / 2 - 1 / 2 * 3rem);
+  margin-left: 1.5rem;
+  width: calc(100% / 2 - 3rem);
   clear: left;
   max-width: inherit
 }
 
 .fr_2_columns_10>.fr-widget:nth-child(2n+2) {
   margin-top: .6em;
-  margin-right: 0;
+  margin-right: 1.5rem;
   margin-bottom: 0;
   margin-left: 1.5rem;
-  width: calc(100% / 2 - 1 / 2 * 3rem);
+  width: calc(100% / 2 - 3rem);
   clear: none;
   max-width: inherit
 }
@@ -1029,29 +1004,6 @@ a:hover {
 .fr_container_59 {
   margin-right: auto;
   margin-left: auto
-}
-
-.fr_caption_4 {
-  margin-right: auto;
-  margin-left: auto
-}
-
-.fr_caption_5 {
-  float: none;
-  display: block;
-  width: 100%;
-  font-family: Avenir Next;
-  font-weight: 400;
-  font-size: .8rem;
-  line-height: 1.6;
-  text-align: left;
-  margin-top: 1rem;
-  margin-right: auto;
-  margin-bottom: 2rem;
-  margin-left: auto;
-  color: #6d6d6d;
-  min-height: 1.35em;
-  max-width: 700px
 }
 
 .fr_wrapper_9 {
@@ -1141,7 +1093,7 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   background-repeat: no-repeat;
-  background-image: url(../images/thumbnail/video-cover_2.jpg_1821x1092.jpg);
+  background-image: url(../images/thumbnail/spaces-video-1.jpg_800x480.jpg);
   background-position: center center;
   background-size: contain;
   position: relative;
@@ -1168,6 +1120,7 @@ a:hover {
   width: 90%;
   margin-top: 1rem;
   margin-right: auto;
+  margin-bottom: 2rem;
   margin-left: auto;
   min-height: 12em;
   max-width: 1000px
@@ -1181,18 +1134,18 @@ a:hover {
   margin-top: .6em;
   margin-right: 1.5rem;
   margin-bottom: 0;
-  margin-left: 0;
-  width: calc(100% / 2 - 1 / 2 * 3rem);
+  margin-left: 1.5rem;
+  width: calc(100% / 2 - 3rem);
   clear: left;
   max-width: inherit
 }
 
 .fr_2_columns_14>.fr-widget:nth-child(2n+2) {
   margin-top: .6em;
-  margin-right: 0;
+  margin-right: 1.5rem;
   margin-bottom: 0;
   margin-left: 1.5rem;
-  width: calc(100% / 2 - 1 / 2 * 3rem);
+  width: calc(100% / 2 - 3rem);
   clear: none;
   max-width: inherit
 }
@@ -1201,11 +1154,6 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   z-index: 1
-}
-
-.fr_caption_9 {
-  margin-right: auto;
-  margin-left: auto
 }
 
 .fr_image_26 {
@@ -1442,43 +1390,6 @@ a:hover {
   border-bottom: none
 }
 
-.fr_back_to_fact_mag_2 {
-  float: right;
-  display: none;
-  font-family: Roboto;
-  font-weight: 300;
-  font-size: .675rem;
-  line-height: 1.6;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  margin-top: .55rem;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: .5rem;
-  padding-right: 1rem;
-  padding-bottom: .4rem;
-  padding-left: 1rem;
-  color: white;
-  background-color: #171616;
-  cursor: pointer
-}
-
-.fr_c01_paragraph_text_87 {
-  float: none;
-  display: block;
-  font-family: Avenir next;
-  font-weight: 400;
-  font-size: 1.0rem;
-  line-height: 1.6;
-  text-align: left;
-  padding-top: .8rem;
-  padding-bottom: .8rem;
-  padding-left: 30px;
-  color: #2d2d2d;
-  min-height: 1em
-}
-
 .fr_hero_last {
   float: none;
   display: block;
@@ -1564,24 +1475,6 @@ a:hover {
   -webkit-transform: translatez(0);
   -ms-transform: translatez(0);
   transform: translatez(0)
-}
-
-.fr_caption_12 {
-  float: none;
-  display: block;
-  width: 100%;
-  font-family: Avenir Next;
-  font-weight: 400;
-  font-size: .8rem;
-  line-height: 1.6;
-  text-align: left;
-  margin-top: 1rem;
-  margin-right: auto;
-  margin-bottom: 2rem;
-  margin-left: auto;
-  color: #6d6d6d;
-  min-height: 1.35em;
-  max-width: 700px
 }
 
 .fr_container_87 {
@@ -1736,32 +1629,45 @@ a:hover {
   max-width: 760px
 }
 
-.fr_js_overlay_4 {
+.fr_c01_paragraph_text_87 {
   float: none;
   display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: rgba(14, 10, 10, 0.8);
-  background-image: url(../images/thumbnail/spillers-wharf-millennium-mills-render-new-coworking-space-at-silvertown.jpg_1200x750.jpg);
-  background-size: cover;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 100;
-  min-height: 40rem;
-  opacity: 0;
-  pointer-events: none
+  font-family: Avenir next;
+  font-weight: 400;
+  font-size: 1.0rem;
+  line-height: 1.4;
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: .8rem;
+  padding-left: 30px;
+  color: #2d2d2d;
+  min-height: 1em
 }
 
-.fr_fancybox_captions {
+.fr_c01_paragraph_text_98 {
   display: none;
-  width: auto;
+  margin-top: .3rem
+}
+
+.fr_move_me_4 {
+  display: none;
+  margin-top: .3rem
+}
+
+.fr_caption_17 {
+  float: none;
+  display: none;
+  font-family: Avenir Next;
+  font-weight: 400;
+  font-size: .8rem;
+  line-height: 1.6;
+  text-align: left;
+  margin-top: .4em;
   margin-right: auto;
   margin-left: auto;
-  min-height: 50px
+  color: #6d6d6d;
+  min-height: 1.35em;
+  max-width: 700px
 }
 
 @media screen and (max-width:768px) {
@@ -1829,6 +1735,10 @@ a:hover {
   .fr_hero_js {
     background-attachment: scroll
   }
+  .fr_2_columns {
+    margin-top: 1rem;
+    margin-bottom: 2rem
+  }
   .fr_2_columns.fr-grid>.fr-widget {
     float: left
   }
@@ -1841,8 +1751,16 @@ a:hover {
     clear: left;
     max-width: inherit
   }
+  .fr_c01_paragraph_text_33 {
+    display: none
+  }
   .fr_hero_js_2 {
-    background-attachment: scroll
+    background-attachment: scroll;
+    min-height: 70vh
+  }
+  .fr_2_columns_2 {
+    margin-top: -1rem;
+    margin-bottom: 2rem
   }
   .fr_2_columns_2.fr-grid>.fr-widget {
     float: left
@@ -1857,7 +1775,11 @@ a:hover {
     max-width: inherit
   }
   .fr_hero_js_3 {
-    background-attachment: scroll
+    background-attachment: scroll;
+    min-height: 70vh
+  }
+  .fr_2_columns_3 {
+    margin-top: 1rem
   }
   .fr_2_columns_3.fr-grid>.fr-widget {
     float: left
@@ -1871,6 +1793,10 @@ a:hover {
     clear: left;
     max-width: inherit
   }
+  .fr_2_columns_4 {
+    margin-top: 1rem;
+    margin-bottom: 2rem
+  }
   .fr_2_columns_4.fr-grid>.fr-widget {
     float: left
   }
@@ -1882,6 +1808,9 @@ a:hover {
     width: 100%;
     clear: left;
     max-width: inherit
+  }
+  .fr_2_columns_7 {
+    display: none
   }
   .fr_2_columns_7.fr-grid>.fr-widget {
     float: left
@@ -1898,6 +1827,9 @@ a:hover {
   .fr_container_49 {
     display: none
   }
+  .fr_2_columns_8 {
+    margin-bottom: 2rem
+  }
   .fr_2_columns_8.fr-grid>.fr-widget {
     float: left
   }
@@ -1911,22 +1843,19 @@ a:hover {
     max-width: inherit
   }
   .fr_hero___manufacturers {
-    background-attachment: scroll
+    background-attachment: scroll;
+    min-height: 70vh
   }
   .fr_hero_2 {
     background-attachment: scroll
   }
   .fr_hero_js_8 {
-    background-attachment: scroll
+    background-attachment: scroll;
+    min-height: 70vh
   }
-  .fr_menu {
-    background-attachment: scroll
-  }
-  .fr_c01_paragraph_text_63 {
-    float: none;
-    display: block;
-    margin-right: auto;
-    margin-left: auto
+  .fr_2_columns_10 {
+    margin-top: 1rem;
+    margin-bottom: 1rem
   }
   .fr_2_columns_10.fr-grid>.fr-widget {
     float: left
@@ -1941,14 +1870,13 @@ a:hover {
     max-width: inherit
   }
   .fr_container_59 {
-    display: none
-  }
-  .fr_caption_5 {
-    float: none;
     display: block
   }
   .fr_caption_author_9 {
     margin-left: auto
+  }
+  .fr_2_columns_13 {
+    margin-bottom: 2rem
   }
   .fr_2_columns_13.fr-grid>.fr-widget {
     float: left
@@ -1969,6 +1897,10 @@ a:hover {
     margin-right: auto;
     margin-left: auto
   }
+  .fr_2_columns_14 {
+    margin-top: 0;
+    margin-bottom: 1rem
+  }
   .fr_2_columns_14.fr-grid>.fr-widget {
     float: left
   }
@@ -1982,7 +1914,7 @@ a:hover {
     max-width: inherit
   }
   .fr_container_68 {
-    display: none
+    display: block
   }
   .fr_caption_author_12 {
     margin-left: auto
@@ -2004,21 +1936,17 @@ a:hover {
   }
   .fr_caption_11 {
     float: none;
-    display: block
+    display: none
   }
   .fr_menu_2 {
+    display: none;
     background-attachment: scroll
-  }
-  .fr_back_to_fact_mag_2 {
-    float: none;
-    display: block
-  }
-  .fr_c01_paragraph_text_87 {
-    float: none;
-    display: block
   }
   .fr_hero_last {
     background-attachment: scroll
+  }
+  .fr_2_columns_32 {
+    margin-top: 1rem
   }
   .fr_2_columns_32.fr-grid>.fr-widget {
     float: left
@@ -2026,18 +1954,17 @@ a:hover {
   .fr_2_columns_32>.fr-widget:nth-child(1n+1) {
     margin-top: .6em;
     margin-right: 0;
-    margin-bottom: .6em;
+    margin-bottom: 0;
     margin-left: 0;
-    width: 100%;
+    width: calc(100% / 1);
     clear: left;
     max-width: inherit
   }
   .fr_container_82 {
-    display: none
-  }
-  .fr_caption_12 {
-    float: none;
     display: block
+  }
+  .fr_container_90 {
+    display: none
   }
   .fr_h1_main_10 {
     float: none;
@@ -2047,9 +1974,13 @@ a:hover {
     margin-left: auto
   }
   .fr_container_91 {
+    display: none;
     min-height: 1rem
   }
   .fr_spacer_5 {
+    display: none
+  }
+  .fr_move_me_3 {
     display: none
   }
   .fr_h2_stemming_8 {
@@ -2060,7 +1991,11 @@ a:hover {
     margin-left: auto
   }
   .fr_hero___manufacturers_2 {
-    background-attachment: scroll
+    background-attachment: scroll;
+    min-height: 70vh
+  }
+  .fr_2_columns_36 {
+    margin-top: 1rem
   }
   .fr_2_columns_36.fr-grid>.fr-widget {
     float: left
@@ -2087,5 +2022,69 @@ a:hover {
     width: 100%;
     margin-right: auto;
     margin-left: auto
+  }
+  .fr_c01_paragraph_text_87 {
+    float: none;
+    display: block
+  }
+  .fr_c01_paragraph_text_98 {
+    margin-right: auto;
+    margin-left: auto
+  }
+  .fr_move_me_4 {
+    margin-right: auto;
+    margin-left: auto
+  }
+  .fr_caption_17 {
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto
+  }
+}
+
+@media screen and (max-width:480px) {
+  h2 {
+    font-size: 1.8rem
+  }
+  .fr_hero_text_center.fr-text h1 {
+    font-size: 36px
+  }
+  .fr_hero_js_2 {
+    min-height: 60vh
+  }
+  .fr_caption_author_2.fr-text p {
+    font-size: 1.5rem
+  }
+  .fr_hero_js_3 {
+    min-height: 50vh
+  }
+  .fr_hero___manufacturers {
+    min-height: 50vh
+  }
+  .fr_hero_js_8 {
+    min-height: 50vh
+  }
+  .fr_caption_author_10 {
+    margin-bottom: 1rem
+  }
+  .fr_c01_paragraph_text_69 {
+    margin-bottom: 1rem
+  }
+  .fr_caption_author_13.fr-text p {
+    font-size: 1.5rem
+  }
+  .fr_menu_2 {
+    display: none
+  }
+  .fr_hero___manufacturers_2 {
+    min-height: 50vh
+  }
+  .fr_caption_author_16 {
+    margin-bottom: 1rem
+  }
+  .fr_c01_paragraph_text_98 {
+    margin-bottom: 3rem
   }
 }
