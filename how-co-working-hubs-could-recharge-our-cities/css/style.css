@@ -1086,7 +1086,7 @@ a:hover {
   margin-left: auto
 }
 
-.fr_video_image_2 {
+.fr_video_image {
   float: none;
   display: block;
   width: 100%;
@@ -1227,7 +1227,7 @@ a:hover {
   min-height: 50px
 }
 
-.fr_caption_author_12 {
+.fr_cover_meta {
   float: none;
   display: block;
   width: 90%;
@@ -1670,6 +1670,36 @@ a:hover {
   max-width: 700px
 }
 
+.fr_custom_css {
+  display: none;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 50px
+}
+
+.fr_video_container_3 {
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  margin-left: auto
+}
+
+.fr_video_image_2 {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-image: url(../images/thumbnail/spaces-video-1.jpg_800x480.jpg);
+  background-position: center center;
+  background-size: contain;
+  position: relative;
+  min-height: 16rem;
+  cursor: pointer
+}
+
 @media screen and (max-width:768px) {
   .fr_hero_small_text {
     margin-left: auto
@@ -1916,7 +1946,7 @@ a:hover {
   .fr_container_68 {
     display: block
   }
-  .fr_caption_author_12 {
+  .fr_cover_meta {
     margin-left: auto
   }
   .fr_2_columns_15.fr-grid>.fr-widget {

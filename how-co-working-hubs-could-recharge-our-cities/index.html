@@ -1200,6 +1200,14 @@
                             padding: 0
                         });
                     });
+
+                    $('#video_image_2').fancybox({
+                        openEffect: 'none',
+                        closeEffect: 'none',
+                        helpers: {
+                            media: {}
+                        }
+                    });
                 </script>
                 <style>
                     .fancybox-overlay {
@@ -1245,11 +1253,19 @@
                         background: #fff;
                     }
                 </style>
+            </div><!--
+         --><div id="custom_css" class="fr-widget fr-html fr-wf fr_custom_css">
+                <style>
+                    .fr_cover_meta a {
+                        color: #fff;
+                        border-bottom: none;
+                    }
+                </style>
             </div>
         </div><!--
      --><div id="hero_js" class="fr-widget fr-container fr_hero_js">
             <div id="wrapper" class="fr-widget fr-container fr_wrapper">
-                <div id="caption_author_12" class="fr-widget fr-text fr-wf fr_caption_author_12 fr-having-animation fr-anim-slide-from-bottom" data-fr-animation="slide-from-bottom">
+                <div id="cover_meta" class="fr-widget fr-text fr-wf fr_cover_meta fr-having-animation fr-anim-slide-from-bottom" data-fr-animation="slide-from-bottom">
                     <div class="fr-text">[CATEGORY] &nbsp;| &nbsp;[DATE] &nbsp;| &nbsp;BY [AUTHOR]</div>
                 </div><!--
              --><div id="h1_main" class="fr-widget fr-text fr-wf fr-richtext fr_h1_main fr_hero_text_center fr-having-animation fr-anim-slide-from-bottom" data-fr-animation="slide-from-bottom">
@@ -1497,7 +1513,7 @@
             <div id="2_columns_13" class="fr-widget fr-grid fr_2_columns_13">
                 <div id="container_66" class="fr-widget fr-container fr_container_66">
                     <div id="video_container_2" class="fr-widget fr-container fr_video_container_2">
-                        <div id="video_image_2" class="fr-widget fr-container fr_video_image_2 fr-widget-hover-opacity-60 fr-having-animation fr-anim-fade-in" data-fr-animation="fade-in">
+                        <div id="video_image" class="fr-widget fr-container fr_video_image fr-widget-hover-opacity-60 fr-having-animation fr-anim-fade-in" data-fr-animation="fade-in">
                             <script>
                                 (function() {
                                     'use strict';
@@ -1507,7 +1523,7 @@
                                         $(this).html('<iframe src="' + videoEmbedLink + '?autoplay=1&title=0&byline=0&portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top:0; bottom: 0; left:0;right:0;"></iframe>');
                                         this.className = this.className.replace(/fr-widget-hover-[a-z0-9\-\_]+\s?/, '');
                                     });
-                                }).call(document.getElementsByClassName('fr_video_image_2')[0]);
+                                }).call(document.getElementsByClassName('fr_video_image')[0]);
                             </script>
                         </div>
                         <script>
@@ -1518,6 +1534,19 @@
                                     $(this).stick_in_parent();
                                 }
                             }).call(document.getElementsByClassName('fr_video_container_2')[0]);
+                        </script>
+                    </div><!--
+                 --><div id="video_container_3" class="fr-widget fr-container fr_video_container_3">
+                        <a id="video_image_2" class="fr-widget fr-container fr_video_image_2 fr-widget-hover-opacity-60 fr-link fr-having-animation fr-anim-fade-in" href="https://vimeo.com/34518274" data-fr-animation="fade-in">
+                        </a>
+                        <script>
+                            (function() {
+                                'use strict';
+                                if (!viewedOnMobileDevice) {
+                                    /* make this stick in parent while parent is in the screen */
+                                    $(this).stick_in_parent();
+                                }
+                            }).call(document.getElementsByClassName('fr_video_container_3')[0]);
                         </script>
                     </div><!--
                  --><div id="c01_paragraph_text_66" class="fr-widget fr-text fr-wf fr-richtext fr_body_text fr_c01_paragraph_text_66">
