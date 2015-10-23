@@ -10,7 +10,7 @@
     <meta name="DC.description" content="Turning urban badlands into thriving neighbourhoods">
     <meta property="og:description" content="Turning urban badlands into thriving neighbourhoods">
     <meta name="description" content="Turning urban badlands into thriving neighbourhoods">
-    <meta property="og:image" content="/zee/31rqb7/_screenshots/images/thumbnail/1700_1445604834.png_1500x1500.jpeg">
+    <meta property="og:image" content="/zee/31rqb7/_screenshots/images/thumbnail/1700_1445612026.png_1500x1500.jpeg">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="FROONT">
     <meta name="DC.language" scheme="ISO639-1" content="en">
@@ -1195,18 +1195,30 @@
                     $(function() {
                         $('.fr_id_gallery .fr-img > img, .fr_id_gallery_2 .fr-img > img').each(function() {
                             $(this).attr('href', $(this).attr('src'))
-                                .attr('rel', 'gallery_1');
+                                .attr('rel', 'gallery');
                         }).fancybox({
                             padding: 0
                         });
                     });
 
-                    $('#video_image_2').fancybox({
-                        openEffect: 'none',
-                        closeEffect: 'none',
-                        helpers: {
-                            media: {}
-                        }
+                    $(document).ready(function() {
+
+                        $(".fr_video_image_2").click(function() {
+                            $.fancybox({
+                                'padding': 0,
+                                'autoScale': false,
+                                'transitionIn': 'none',
+                                'transitionOut': 'none',
+                                'title': this.title,
+                                'width': 681,
+                                'height': 383,
+                                'href': this.href.replace(new RegExp("([0-9])", "i"), 'moogaloop.swf?clip_id=$1'),
+                                'type': 'swf'
+                            });
+
+                            return false;
+                        });
+
                     });
                 </script>
                 <style>
@@ -1258,6 +1270,10 @@
                 <style>
                     .fr_cover_meta a {
                         color: #fff;
+                        border-bottom: none;
+                    }
+                    
+                    .fr_video_image_2 {
                         border-bottom: none;
                     }
                 </style>
@@ -1536,19 +1552,9 @@
                             }).call(document.getElementsByClassName('fr_video_container_2')[0]);
                         </script>
                     </div><!--
-                 --><div id="video_container_3" class="fr-widget fr-container fr_video_container_3">
-                        <a id="video_image_2" class="fr-widget fr-container fr_video_image_2 fr-widget-hover-opacity-60 fr-link fr-having-animation fr-anim-fade-in" href="https://vimeo.com/34518274" data-fr-animation="fade-in">
-                        </a>
-                        <script>
-                            (function() {
-                                'use strict';
-                                if (!viewedOnMobileDevice) {
-                                    /* make this stick in parent while parent is in the screen */
-                                    $(this).stick_in_parent();
-                                }
-                            }).call(document.getElementsByClassName('fr_video_container_3')[0]);
-                        </script>
-                    </div><!--
+                 --><a id="video_image_2" class="fr-widget fr-img fr_video_image_2 fr-link" href="https://vimeo.com/34518274">
+                        <img src="images/thumbnail/spaces-video-1_1.jpg_800x480.jpg" />
+                    </a><!--
                  --><div id="c01_paragraph_text_66" class="fr-widget fr-text fr-wf fr-richtext fr_body_text fr_c01_paragraph_text_66">
                         <div class="fr-text">
                             <p>Ponyride offers desks to 40 local entrepreneurs for a below market rental rate. The catch? Each member must give six hours of time to community education a month.</p>
@@ -1698,7 +1704,7 @@
                                     /* make this stick in parent while parent is in the screen */
                                     $(this).stick_in_parent();
                                 }
-                                $(this).find('img').attr("title", "The co-working hub’s communal space also hosts events and talks.");
+                                $(this).find('img').attr("title", "The co-working hub’s communal space also hosts events and talks.").attr("rel", "gallery");
                             }).call(document.getElementsByClassName('fr_image_20')[0]);
                         </script>
                     </div>
@@ -1713,7 +1719,7 @@
                                     /* make this stick in parent while parent is in the screen */
                                     $(this).stick_in_parent();
                                 }
-                                $(this).find('img').attr("title", "The industrial history of the building is retained through the use of wood, concrete and exposed brickwork. Where possible, Maeillo restored remaining original features, including the building’s only remaining plaster-moulded ceiling (pictured top), which was restored by a local craftsman.");
+                                $(this).find('img').attr("title", "The industrial history of the building is retained through the use of wood, concrete and exposed brickwork. Where possible, Maeillo restored remaining original features, including the building’s only remaining plaster-moulded ceiling (pictured top), which was restored by a local craftsman.").attr("rel", "gallery");
                             }).call(document.getElementsByClassName('fr_image_18')[0]);
                         </script>
                     </div>
