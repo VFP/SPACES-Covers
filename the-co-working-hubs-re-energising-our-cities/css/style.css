@@ -613,24 +613,6 @@ a:hover {
   min-height: 100vh
 }
 
-.fr_js_overlay_3 {
-  float: none;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: rgba(14, 10, 10, 0.8);
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 100;
-  min-height: 12em;
-  opacity: 0;
-  pointer-events: none
-}
-
 .fr_wrapper_3 {
   display: block;
   top: 50%;
