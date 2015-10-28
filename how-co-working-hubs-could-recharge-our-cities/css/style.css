@@ -831,25 +831,12 @@ a:hover {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  background-image: url(../images/thumbnail/eigenbrot-1-john-patterson-web-sd.jpg_1400x848.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.11)), url(../images/thumbnail/eigenbrot-1-john-patterson-web-sd.jpg_1400x848.jpg);
   background-position: center bottom;
   background-size: cover;
   background-attachment: scroll;
   position: relative;
   min-height: 100vh
-}
-
-.fr_wrapper_4 {
-  display: block;
-  top: 50%;
-  width: 100%;
-  margin-top: 0;
-  margin-right: auto;
-  margin-left: auto;
-  position: absolute;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%)
 }
 
 .fr_hero_2 {
@@ -889,7 +876,7 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   background-repeat: no-repeat;
-  background-image: url(../images/thumbnail/millennium-mills-northwest-cropped.jpg_1650x1068.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)), url(../images/thumbnail/millennium-mills-northwest-cropped.jpg_1650x1068.jpg);
   background-position: center bottom;
   background-size: cover;
   background-attachment: scroll;
@@ -940,7 +927,7 @@ a:hover {
   width: 90%;
   margin-top: 3rem;
   margin-right: auto;
-  margin-bottom: 3rem;
+  margin-bottom: 2.4rem;
   margin-left: auto;
   min-height: 12em;
   max-width: 1000px
@@ -978,19 +965,6 @@ a:hover {
 
 .fr_image_18 {
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  z-index: 0;
-  max-width: 1024px;
-  cursor: pointer;
-  -webkit-transform: translatez(0);
-  -ms-transform: translatez(0);
-  transform: translatez(0)
-}
-
-.fr_image_20 {
-  width: 100%;
-  margin-top: 0;
   margin-right: auto;
   margin-left: auto;
   z-index: 0;
@@ -1466,18 +1440,6 @@ a:hover {
   z-index: 1
 }
 
-.fr_image_28 {
-  margin-top: 0;
-  margin-right: auto;
-  margin-left: auto;
-  z-index: 0;
-  max-width: 1024px;
-  cursor: pointer;
-  -webkit-transform: translatez(0);
-  -ms-transform: translatez(0);
-  transform: translatez(0)
-}
-
 .fr_container_87 {
   margin-right: auto;
   margin-left: auto
@@ -1531,25 +1493,12 @@ a:hover {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  background-image: url(../images/thumbnail/philadelphia-exterior-resized-for-web-2.jpg_1600x1049.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url(../images/thumbnail/philadelphia-exterior-resized-for-web-2.jpg_1600x1049.jpg);
   background-position: center bottom;
   background-size: cover;
   background-attachment: scroll;
   position: relative;
   min-height: 100vh
-}
-
-.fr_wrapper_16 {
-  display: block;
-  top: 50%;
-  width: 100%;
-  margin-top: 0;
-  margin-right: auto;
-  margin-left: auto;
-  position: absolute;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%)
 }
 
 .fr_container_92 {
@@ -1685,6 +1634,103 @@ a:hover {
   margin-bottom: 3rem;
   margin-left: auto;
   max-width: 1024px
+}
+
+.fr_image_29 {
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 0;
+  max-width: 1024px;
+  cursor: pointer;
+  -webkit-transform: translatez(0);
+  -ms-transform: translatez(0);
+  transform: translatez(0)
+}
+
+.fr_image_30 {
+  width: 100%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 0;
+  max-width: 1024px;
+  cursor: pointer;
+  -webkit-transform: translatez(0);
+  -ms-transform: translatez(0);
+  transform: translatez(0)
+}
+
+.fr_wrapper_17 {
+  display: block;
+  top: 50%;
+  width: 100%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
+
+.fr_caption_author_18 {
+  max-width: 550px
+}
+
+.fr_caption_author_18.fr-text p {
+  font-size: 2rem;
+  color: white
+}
+
+.fr_wrapper_18 {
+  display: block;
+  top: 50%;
+  width: 100%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
+
+.fr_caption_author_20 {
+  max-width: 550px
+}
+
+.fr_caption_author_20.fr-text p {
+  font-size: 2rem;
+  color: white
+}
+
+.fr_wrapper_19 {
+  display: block;
+  top: 50%;
+  width: 100%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
+
+.fr_caption_author_22 {
+  max-width: 550px
+}
+
+.fr_caption_author_22.fr-text p {
+  font-size: 2rem;
+  color: white
 }
 
 @media screen and (max-width:768px) {
@@ -2103,5 +2149,14 @@ a:hover {
   }
   .fr_c01_paragraph_text_98 {
     margin-bottom: 3rem
+  }
+  .fr_caption_author_18.fr-text p {
+    font-size: 1.5rem
+  }
+  .fr_caption_author_20.fr-text p {
+    font-size: 1.5rem
+  }
+  .fr_caption_author_22.fr-text p {
+    font-size: 1.5rem
   }
 }
