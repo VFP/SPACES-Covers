@@ -607,7 +607,7 @@ a:hover {
   margin-left: auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/thumbnail/ponyride_1.jpg_1793x1013.jpg);
   background-position: center bottom;
-  background-size: auto;
+  background-size: cover;
   background-attachment: scroll;
   position: relative;
   min-height: 100vh
