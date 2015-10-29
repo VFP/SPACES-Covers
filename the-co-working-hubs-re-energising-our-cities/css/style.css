@@ -1137,7 +1137,7 @@ a:hover {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
   background-color: white;
   position: relative;
   z-index: 1
@@ -1721,13 +1721,14 @@ a:hover {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  min-height: 200px
+  min-height: 150px
 }
 
 .fr_html_share_buttons {
   width: auto;
   margin-right: auto;
-  margin-left: auto
+  margin-left: auto;
+  min-height: 150px
 }
 
 @media screen and (max-width:768px) {
