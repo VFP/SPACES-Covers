@@ -1715,6 +1715,21 @@ a:hover {
   color: white
 }
 
+.fr_share_buttons_wrapper {
+  float: none;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 200px
+}
+
+.fr_html_share_buttons {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto
+}
+
 @media screen and (max-width:768px) {
   h2 {
     font-size: 2rem
