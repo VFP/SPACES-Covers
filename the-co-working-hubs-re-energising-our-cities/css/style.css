@@ -2093,14 +2093,31 @@ a:hover {
   h2 {
     font-size: 1.8rem
   }
+  .fr_hero_text_center {
+    margin-bottom: .5rem
+  }
   .fr_hero_text_center.fr-text h1 {
-    font-size: 36px
+    font-size: 30px;
+    line-height: 1.1
+  }
+  .fr_hero_text_center.fr-text p {
+    font-size: .7rem
+  }
+  .fr_hero_small_text_center {
+    font-size: 16px
+  }
+  .fr_quote_author.fr-text p {
+    font-size: .9rem
   }
   .fr_hero_js_2 {
     min-height: 60vh
   }
+  .fr_caption_author_2 {
+    margin-bottom: .5rem
+  }
   .fr_caption_author_2.fr-text p {
-    font-size: 1.5rem
+    font-size: 1.3rem;
+    line-height: 1.3
   }
   .fr_hero_js_3 {
     min-height: 50vh
@@ -2117,8 +2134,16 @@ a:hover {
   .fr_c01_paragraph_text_69 {
     margin-bottom: 1rem
   }
+  .fr_cover_meta {
+    font-size: 11px;
+    margin-bottom: .5rem
+  }
+  .fr_caption_author_13 {
+    margin-bottom: .5rem
+  }
   .fr_caption_author_13.fr-text p {
-    font-size: 1.5rem
+    font-size: 1.3rem;
+    line-height: 1.4
   }
   .fr_menu_2 {
     display: none
@@ -2132,13 +2157,34 @@ a:hover {
   .fr_c01_paragraph_text_98 {
     margin-bottom: 3rem
   }
+  .fr_caption_author_18 {
+    margin-bottom: .5rem
+  }
   .fr_caption_author_18.fr-text p {
-    font-size: 1.5rem
+    font-size: 1.3rem;
+    line-height: 1.4
+  }
+  .fr_caption_author_20 {
+    margin-bottom: .5rem
   }
   .fr_caption_author_20.fr-text p {
-    font-size: 1.5rem
+    font-size: 1.3rem;
+    line-height: 1.4
+  }
+  .fr_caption_author_22 {
+    margin-bottom: .5rem
   }
   .fr_caption_author_22.fr-text p {
-    font-size: 1.5rem
+    font-size: 1.3rem;
+    line-height: 1.4
+  }
+}
+
+@media screen and (max-width:320px) {
+  .fr_hero_text_center.fr-text h1 {
+    font-size: 26px
+  }
+  .fr_hero_text_center.fr-text p {
+    font-size: 26px
   }
 }
