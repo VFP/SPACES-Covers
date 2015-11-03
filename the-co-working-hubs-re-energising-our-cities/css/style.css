@@ -1,5 +1,5 @@
 h1 {
-  font-family: Avenir next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: 3.25rem;
   line-height: 1.2;
@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-  font-family: Avenir next;
+  font-family: 'Avenir Next W01';
   font-weight: 500;
   font-size: 2.4rem;
   line-height: 1.2;
@@ -18,7 +18,7 @@ h2 {
 }
 
 h3 {
-  font-family: Avenir next;
+  font-family: 'Avenir Next W01';
   font-weight: 100;
   font-size: 3.48rem;
   line-height: 1.3;
@@ -28,7 +28,7 @@ h3 {
 }
 
 h4 {
-  font-family: Merriweather;
+  font-family: 'Avenir Next W01';
   font-weight: 600;
   font-size: 1.25rem;
   line-height: 1.3;
@@ -55,7 +55,7 @@ h6 {
 }
 
 p {
-  font-family: Avenir Next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: .85rem;
   line-height: 1.8;
@@ -93,7 +93,7 @@ a:hover {
   float: none;
   display: block;
   width: 90%;
-  font-family: Montserrat;
+  font-family: 'Avenir Next W01';
   font-weight: 100;
   font-size: 1em;
   line-height: 1.35;
@@ -115,7 +115,7 @@ a:hover {
   float: none;
   display: none;
   width: 86.74%;
-  font-family: Oxygen;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: 1em;
   line-height: 1.35;
@@ -140,7 +140,7 @@ a:hover {
 }
 
 .fr_hero_text2.fr-text h2 {
-  font-family: Avenir next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   color: white
 }
@@ -149,7 +149,7 @@ a:hover {
   float: none;
   display: block;
   width: 100%;
-  font-family: Avenir Next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: .8rem;
   line-height: 1.6;
@@ -164,15 +164,15 @@ a:hover {
 }
 
 .fr_caption.fr-text p {
-  font-family: Abril Fatface
+  font-family: 'Avenir Next W01'
 }
 
 .fr_caption.fr-text p {
-  font-family: Forum
+  font-family: 'Avenir Next W01'
 }
 
 .fr_caption.fr-text p {
-  font-family: Neuton;
+  font-family: 'Avenir Next W01';
   color: #a5a1a1
 }
 
@@ -198,14 +198,14 @@ a:hover {
 }
 
 .fr_body_text.fr-text blockquote {
-  font-family: Avenir next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: 2rem;
   color: black
 }
 
 .fr_body_text.fr-text h2 {
-  font-family: Montserrat;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: 2.5rem
 }
@@ -214,7 +214,7 @@ a:hover {
   float: left;
   display: block;
   width: 100%;
-  font-family: Didact Gothic;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: 1.1em;
   line-height: 1.4em;
@@ -228,20 +228,20 @@ a:hover {
 }
 
 .fr_wt.fr-text p {
-  font-family: Avenir Next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: 1.1rem;
   line-height: 1.7
 }
 
 .fr_wt.fr-text h2 {
-  font-family: Montserrat;
+  font-family: 'Avenir Next W01';
   font-weight: 800;
   font-size: 3.4rem
 }
 
 .fr_wt.fr-text blockquote {
-  font-family: Avenir Next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: 3rem;
   color: black
@@ -260,7 +260,7 @@ a:hover {
   float: none;
   display: block;
   width: 90%;
-  font-family: Oxygen;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: 1em;
   line-height: 1.35;
@@ -293,7 +293,7 @@ a:hover {
   float: none;
   display: block;
   width: 90%;
-  font-family: Avenir next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: 18px;
   line-height: 1.35;
@@ -331,7 +331,7 @@ a:hover {
 }
 
 .fr_quote.fr-text p {
-  font-family: Avenir Next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-style: italic;
   font-size: 1.75rem;
@@ -342,7 +342,7 @@ a:hover {
 
 .fr_button {
   display: inline-block;
-  font-family: Roboto;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: .67em;
   line-height: 1.9;
@@ -366,7 +366,7 @@ a:hover {
   float: none;
   display: block;
   width: 86.74%;
-  font-family: Avenir Next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: 2em;
   line-height: 1.35;
@@ -1188,7 +1188,7 @@ a:hover {
   float: none;
   display: block;
   width: 90%;
-  font-family: Avenir next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: 12px;
   line-height: 1.35;
@@ -1267,7 +1267,7 @@ a:hover {
 .fr_caption_11 {
   float: none;
   display: block;
-  font-family: Avenir Next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: .8rem;
   line-height: 1.6;
@@ -1564,7 +1564,7 @@ a:hover {
 .fr_c01_paragraph_text_87 {
   float: none;
   display: block;
-  font-family: Avenir next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: 1.0rem;
   line-height: 1.4;
@@ -1589,7 +1589,7 @@ a:hover {
 .fr_caption_17 {
   float: none;
   display: none;
-  font-family: Avenir Next;
+  font-family: 'Avenir Next W01';
   font-weight: 400;
   font-size: .8rem;
   line-height: 1.6;
