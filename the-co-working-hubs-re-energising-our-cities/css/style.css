@@ -1735,6 +1735,10 @@ a:hover {
   h2 {
     font-size: 2rem
   }
+  ul.post-share-list li {
+    width: 100%;
+    margin-left: 0!important;
+	}
   .fr_hero_small_text {
     margin-left: auto
   }
