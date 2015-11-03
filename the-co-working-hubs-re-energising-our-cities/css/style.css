@@ -2249,3 +2249,6 @@ a:hover {
     min-height: 60vh
   }
 }
+ul.post-share-list {
+	font-family: 'Avenir Next W01';
+}
