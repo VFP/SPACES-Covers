@@ -6326,7 +6326,10 @@ body.fr-mfp-open {
   }	
   
      }
-     
+.custom-caption {
+    font-size: 13px;
+	margin: 0 0 0 27px;
+}
      * {
  font-family: 'Avenir Next W01', sans-serif !important;
 }
