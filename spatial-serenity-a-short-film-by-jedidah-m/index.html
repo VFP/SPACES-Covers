@@ -620,7 +620,18 @@
 
 	<style>
 		#player {
-		  --plyr-color-main: #1ac266;
+		  --plyr-color-main: #fff;
+		}
+		.plyr__control--overlaid {
+			color: #000 !important;
+			background: #fff !important;
+		}
+		.plyr--full-ui input[type=range] {
+			color: #fff !important;
+		}
+		.plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true] {
+			background: transparent !important;
+
 		}
 	</style>
 	
