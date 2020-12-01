@@ -787,7 +787,7 @@ ol li {
     display: block;
     width: 100%;
     background-color: #959595;
-    background-image: url(../images/thumbnail/vid-1-cover.jpg);
+    background-image: url('../images/thumbnail/mobile-cover.jpg');
     background-attachment: scroll;
     z-index: 1
   }
@@ -802,14 +802,7 @@ ol li {
     width: 100%
   }
 
-  .fr_bg_image_3 {
-    display: block;
-    width: 100%;
-    background-color: #959595;
-    background-image: url(../images/thumbnail/vid-2-cover.jpg);
-    background-attachment: scroll;
-    z-index: 1
-  }
+
 
   .fr_video_bg_4 {
     display: none
@@ -902,7 +895,9 @@ ol li {
     font-size: 1.7rem;
     line-height: 1.4
   }
-
+  .fr_intro_p.fr-text p.subtitle {
+  	 font-size: 1.1rem;
+  	 }
   .fr_body_text {
     display: block
   }
