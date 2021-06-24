@@ -1746,3 +1746,19 @@ ol li {
   clear: none;
   max-width: inherit
 }
+
+@media screen and (max-width: 480px) {
+.fr_grid___2_photos_2.fr-grid>.fr-widget:nth-child(1n+1) {
+    margin-top: .6em;
+    margin-right: 0;
+    margin-bottom: .6em;
+    margin-left: 0;
+    width: 100%;
+    clear: left;
+    max-width: inherit;
+}
+.fr_grid___2_photos_2 {
+	margin-bottom: 0;
+}
+
+}
