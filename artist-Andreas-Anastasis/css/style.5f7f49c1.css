@@ -354,7 +354,7 @@ ol li {
   width: 100%;
   vertical-align: top;
   margin-right: auto;
-  background-image: url(../images/thumbnail/How-I-Live-Andreas-Anastasis_09.jpg);
+  background-image: url(../images/thumbnail/How-I-Live-Andreas-Anastasis_18-1024x683.jpeg);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -558,7 +558,7 @@ ol li {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
-  background-image: url('../images/thumbnail/How-I-Live-Andreas-Anastasis_16a.jpg');
+  background-image: url('../images/thumbnail/How-I-Live-Andreas-Anastasis_25-1024x683.jpeg');
   background-size: cover;
 }
 
@@ -666,7 +666,19 @@ ol li {
   width: 100%;
   vertical-align: top;
   margin-right: auto;
-  background-image: url(../images/thumbnail/How-I-Live-Andreas-Anastasis_14.jpg);
+  background-image: url(../images/thumbnail/How-I-Live-Andreas-Anastasis_22-1024x683.jpeg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh
+}
+.fr_hero_bg_image_centered_text_3a {
+  float: none;
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  margin-right: auto;
+  background-image: url(../images/thumbnail/final.jpg);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1024,9 +1036,10 @@ ol li {
 }
 
 .pull-quote {
-	max-width: 300px;
+	max-width: 350px;
     text-align: left;
     margin: 0 auto;
-        font-weight: 400;
+    font-weight: 400;
+    font-size: 28px;
 }
 

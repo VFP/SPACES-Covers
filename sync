@@ -6,10 +6,10 @@
 
 if [[ -n "$1" && $1 == "staging" ]]; then
     echo "Deploying to Spaces Staging server"
-    rsync -azP --exclude={.git,phploy,phploy.ini,.gitignore,sync}  -e "ssh -i ~/Documents/depKey/tvf.pem" ./ ubuntu@18.233.62.218:/home/www/thespaces/wp-content/covers
+    rsync -azP --exclude={.git,phploy,phploy.ini,.gitignore,sync}  -e "ssh -i /Users/rob/Documents/depKey/tvf.pem" ./ ubuntu@18.233.62.218:/home/www/thespaces/wp-content/covers
 elif [[ -n "$1" && $1 == "live" ]]; then
     echo "Deploying to Spaces Live server"
-    rsync -azP --exclude={.git,phploy,phploy.ini,.gitignore,sync}  -e "ssh -i ~/Documents/depKey/tvf.pem" ./ ubuntu@3.82.249.129:/home/www/wp-content/covers
+    rsync -azP --exclude={.git,phploy,phploy.ini,.gitignore,sync}  -e "ssh -i /Users/rob/Documents/depKey/tvf.pem" ./ ubuntu@3.82.249.129:/home/www/wp-content/covers
 else
     echo "No server found."
 fi
