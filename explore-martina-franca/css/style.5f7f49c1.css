@@ -560,7 +560,7 @@ ol li {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
-  background-image: url('../images/thumbnail/Judge-Martino-1113-dark.jpg');
+  background-image: url('../images/thumbnail/main-1.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -693,7 +693,7 @@ ol li {
   width: 100%;
   vertical-align: top;
   margin-right: auto;
-  background-image: url(../images/thumbnail/Martino-Franca-Thomas-Lyons_MGL5738.jpg);
+  background-image: url(../images/thumbnail/doors.jpg);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1075,13 +1075,17 @@ ol li {
 }
 .fact-box {
 	background: #f3f3f3;
-    float: left;
+    float: right;
     max-width: 400px;
     padding: 10px 30px;
-    margin-right: 50px;
+    margin-left: 50px;
     margin-bottom: 50px;
 }
 .fact-box p {
 	font-size: 14px;
 }
-
+.gallery-caption {
+	font-size: 13px;
+    margin-left: 35px;
+    margin-top: 0;
+}
