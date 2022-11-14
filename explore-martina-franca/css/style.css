@@ -560,7 +560,7 @@ ol li {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
-  background-image: url('../images/thumbnail/main-1.jpg');
+  background-image: url('../images/thumbnail/main.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -693,7 +693,7 @@ ol li {
   width: 100%;
   vertical-align: top;
   margin-right: auto;
-  background-image: url(../images/thumbnail/doors.jpg);
+  background-image: url(../images/thumbnail/full-2.jpg);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1088,4 +1088,11 @@ ol li {
 	font-size: 13px;
     margin-left: 35px;
     margin-top: 0;
+}
+.cards-single-medium {
+	max-width: 760px;
+}
+.cards-gallery-narrow {
+	max-width: 1200px;
+	margin: 0 auto !important;
 }
