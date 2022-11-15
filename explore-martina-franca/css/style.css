@@ -1052,7 +1052,7 @@ ol li {
     margin: 0 auto !important;
 }
 .cards-single img {
-	max-width: 100% !important;
+	max-width: 96% !important;
 }
 
 .pull-quote {
@@ -1069,6 +1069,8 @@ ol li {
 .quote-full {
 	max-width: 1200px;
     text-align: center;
+    padding: 0 30px;
+
 }
 .paragraph-with-fact-box {
 	max-width: 1200px;
@@ -1084,6 +1086,15 @@ ol li {
 .fact-box p {
 	font-size: 14px;
 }
+@media screen and (max-width:767px) {
+  .fact-box {
+	float: right;
+    max-width: 100%;
+    
+    margin-left: 0;
+}
+}
+	  
 .gallery-caption {
 	font-size: 13px;
     margin-left: 35px;
