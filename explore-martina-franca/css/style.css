@@ -1098,7 +1098,8 @@ ol li {
 .gallery-caption {
 	font-size: 13px;
     margin-left: 35px;
-    margin-top: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 .cards-single-medium {
 	max-width: 760px;
