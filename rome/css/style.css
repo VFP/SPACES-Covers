@@ -1108,3 +1108,8 @@ ol li {
 	max-width: 1200px;
 	margin: 0 auto !important;
 }
+
+.cards-text-columns {
+	margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
