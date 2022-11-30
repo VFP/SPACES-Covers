@@ -1113,3 +1113,19 @@ ol li {
 	margin-top: 50px !important;
     margin-bottom: 50px !important;
 }
+@media screen and (max-width:767px) {
+	.cards-text-columns .card-img,
+	.cards-text-columns div  {
+		width: 100%;
+		max-width: 100% !important;
+	}
+	.cards.cards-text-columns {
+		margin-top: 30px !important;
+	}
+}
+@media screen and (max-width:480px) {
+	.cards a {
+		max-width: 100% !important;
+		    margin-bottom: 20px! important;
+	}
+}
